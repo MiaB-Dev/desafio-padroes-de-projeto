@@ -1,9 +1,9 @@
-package one.digitalinnovation.gof.FugaDaIlha;
+package one.digitalinnovation.FugaDaLava;
 
 import java.util.Random;
 import java.util.Scanner;
 
-import one.digitalinnovation.gof.strategy.*;
+//import one.digitalinnovation.gof.strategy.*;
 
 /**
  * FugadaIlha

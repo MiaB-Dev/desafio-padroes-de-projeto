@@ -1,4 +1,4 @@
-package one.digitalinnovation.gof.strategy;
+package one.digitalinnovation.FugaDaLava;
 
 import java.util.Random;
 
