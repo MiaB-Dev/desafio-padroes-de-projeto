@@ -23,3 +23,8 @@ O projeto AdapatadorVGAparaHDMI utiliza o padrão de projeto adapter, onde neste
 ## Acessando sistema
 Este projeto implementa o padrão "marker", onde interfaces vazias são utilizadas para discernir objetos tratados de maneira diferente. Neste projeto a interface Permissao concede ao sistema sendo implementada pela classe UsuarioRoot, enquanto a classe UsuarioNaoAutorizado não a implementa, negando o acesso da classe ao sistema.
 
+
+### Referências utilizadas:
+- https://github.com/iluwatar/java-design-patterns/tree/master/
+- https://www.devmedia.com.br/padrao-de-projeto-adapter-em-java/26467
+
