@@ -1,7 +1,13 @@
 # Explorando Padrões de Projetos na Prática com Java
 
 
-Foram implementados dois projetos utilizando os padrões de projeto strategy e adapter, cada projeto implementando um padrão.
+<p>Repositório com as implementações dos padrões de projeto explorados no Lab "Explorando Padrões de Projetos na Prática com Java". Especificamente, este projeto explorou alguns padrões usando Java puro:
+
+- Strategy/state
+- Adapter
+- Marker
+
+
 
 ## Fuga da lava
 O projeto FugaDaLava utiliza a ideia inicial do professor Venilton de um robô que muda de comportamento em tempo de execução de acordo com seu estado, implementando o padrão strategy. O código foi modificado de forma a simular o movimento do robô, onde cada comportamento trás vantagens e desvantagens. O modo agressivo proporciona mais movimento, mas há uma chance maior de ocorrer algum problema (o robô cair em um buraco por exemplo) enquanto o modo defensivo proporciona mais segurança, mas ao custo de menor movimento. O modo "normal" trás um balaço entre mobilidade e risco.
@@ -12,10 +18,8 @@ As classes "ComportamentoAgressivo", "ComportamentoDefensivo" e "ComportamentoNo
 
 ## AdaptadorVGAparaHDMI
 
-O projeto AdapatadorVGAparaHDMI utiliza o padrão de projeto adapter, onde neste caso, um monitor com porta HDMI recebe um adaptador que converte imagem do cabo VGA para HDMI.
-Repositório com as implementações dos padrões de projeto explorados no Lab "Explorando Padrões de Projetos na Prática com Java". Especificamente, este projeto explorou alguns padrões usando Java puro:
-- Adapter
-- Strategy/state
+O projeto AdapatadorVGAparaHDMI utiliza o padrão de projeto adapter, onde neste caso, um monitor com porta HDMI recebe um adaptador que converte imagem do cabo VGA para HDMI. O padrão de projeto utilizado foi o adapter, que permite que classes com interfaces diferentes se comuniquem.
 
+## Acessando sistema
+Este projeto implementa o padrão "marker", onde interfaces vazias são utilizadas para discernir objetos tratados de maneira diferente. Neste projeto a interface Permissao concede ao sistema sendo implementada pela classe UsuarioRoot, enquanto a classe UsuarioNaoAutorizado não a implementa, negando o acesso da classe ao sistema.
 
-Escrever um pouco de cada e o que cada um dos programas faz.
